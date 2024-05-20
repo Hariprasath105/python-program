@@ -1,0 +1,10 @@
+def is_oneful_pair(a, b):
+    
+    s = a + b + (a * b)
+    if s == 111:
+        return "Yes"
+    else:
+        return "No"
+
+output
+no
