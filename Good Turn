@@ -1,0 +1,12 @@
+t = int(input().strip())
+for _ in range(t):
+    x, y = map(int, input().strip().split())
+    if x + y > 6:
+        print("Yes")
+    else:
+        print("No")
+output
+NO
+YES
+NO
+YES
